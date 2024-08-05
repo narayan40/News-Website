@@ -1,0 +1,29 @@
+img{
+    height:200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.card:hover{
+    transition: transform 0.5s ease;
+transform: scale(1.1);
+}
+.activeLink{
+    background-color:  #358d64;
+    
+    
+    border-radius: 5px;
+}
+
+#weather {
+    font-size: 1rem;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.underNav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
